@@ -1,0 +1,25 @@
+Column Name,Description,Data Type,Missing %,Transformation/Remarks
+data,No description available,object,0.0,Check for duplicates
+trip_creation_time,No description available,datetime64[ns],0.0,Check for duplicates Converted to datetime
+route_schedule_uuid,Identifier for route schedule,object,0.0,Check for duplicates
+route_type,No description available,object,0.0,Check for duplicates
+trip_uuid,Unique trip ID,object,0.0,Check for duplicates
+source_center,No description available,object,0.0,Check for duplicates
+source_name,No description available,object,0.2,Check for duplicates
+destination_center,No description available,object,0.0,Check for duplicates
+destination_name,No description available,object,0.18,Check for duplicates
+od_start_time,No description available,datetime64[ns],0.0,Check for duplicates Converted to datetime
+od_end_time,No description available,datetime64[ns],0.0,Check for duplicates Converted to datetime
+start_scan_to_end_scan,No description available,float64,0.0,Check for duplicates
+is_cutoff,No description available,bool,0.0,Check for duplicates
+cutoff_factor,No description available,int64,0.0,Check for duplicates
+cutoff_timestamp,No description available,datetime64[ns],2.37,Check for duplicates Converted to datetime
+actual_distance_to_destination,Actual distance in meters to destination,float64,0.0,Check for duplicates Check unit (meters/kilometers)
+actual_time,Time taken for the trip in seconds,float64,0.0,Check for duplicates
+osrm_time,Estimated time by OSRM routing engine,float64,0.0,Check for duplicates
+osrm_distance,No description available,float64,0.0,Check for duplicates Check unit (meters/kilometers)
+factor,No description available,float64,0.0,Check for duplicates
+segment_actual_time,Time for a specific segment of the trip,float64,0.0,Check for duplicates
+segment_osrm_time,No description available,float64,0.0,Check for duplicates
+segment_osrm_distance,No description available,float64,0.0,Check for duplicates Check unit (meters/kilometers)
+segment_factor,No description available,float64,0.0,Check for duplicates
