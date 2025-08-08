@@ -1,0 +1,2 @@
+Model,Team_Member,Train_RMSE,Test_RMSE,Train_R2,Test_R2,Train_Accuracy,Test_Accuracy,CV_RMSE_Mean,CV_RMSE_Std,Best_Params
+XGBoost,Laavanjan,2.061989840701781,5.658805462931503,0.9999883340409187,0.9999115541696814,99.3272552497138,99.14543702596164,6.789163260870383,0.45416027494870453,"{'colsample_bytree': 0.8, 'learning_rate': 0.1, 'max_depth': 9, 'n_estimators': 300, 'reg_alpha': 0.1, 'reg_lambda': 1.5, 'subsample': 1.0}"
